@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+</head>
+<body>
+	<center>
+	<h1>Formularios</h1>
+	<br><hr><br>
+	<h1>Paquetería</h1>
+	<br>
+	<h2>Creación de cuenta</h2>
+	<br><br>
+	<div>
+		<form>
+  			<label for = "nombre"><strong> Nombre/s </strong></label>
+  			<input type = "text" name = "res_nombre" id = "nombre">	
+		<form>
+  			<label for = "apellido"><strong> Apellidos </strong></label>
+  			<input type = "text" name = "res_apellido" id = "apellido">
+		</form>
+		</form>
+	</div>
+	<br>
+	<div>
+		<form>
+			<p><strong>Sexo</strong></p>
+			<input type = "radio" id = "masculino" nombre = "sexo" value = "Masculino">
+			<label for = "masculino">Masculino</label>
+			<input type = "radio" id = "femenino" nombre = "sexo" value = "Femenino">
+			<label for = "femenino">Femenino</label>
+		</form>	
+	</div>
+	<br>
+	<div>		
+		<p><strong>Fecha de nacimiento</strong></p>
+  		<form>
+  			<label for = "dia"><strong> Día </strong></label>
+  			<input type = "number" name = "dia" id = "dia">		
+		</form>
+		<br>
+		<form>
+  			<label for = "mes"><strong> Mes</strong></label>
+  			<select id = "mes" name = "mes">
+			    <option value = "Enero"> Enero </option>
+			    <option value = "Febrero"> Febrero </option>
+			    <option value = "Marzo"> Marzo </option>
+			    <option value = "Abril"> Abril </option>
+			    <option value = "Mayo"> Mayo </option>
+			    <option value = "Junio"> Junio </option>
+			    <option value = "Julio"> Julio </option>
+			    <option value = "Agosto"> Agosto </option>
+			    <option value = "Septiembre"> Septiembre </option>
+			    <option value = "Octubre"> Octubre </option>
+			    <option value = "Noviembre"> Noviembre </option>
+			    <option value = "Diciembre"> Diciembre </option>
+		 	</select>
+		</form>
+		<br>
+		<form>
+  			<label for = "año"><strong> Año </strong></label>
+  			<input type = "number" name = "año" id = "año">		
+		</form>	
+	</div>
+	<br><br>
+	<div>
+		<form>
+  			<label for = "correo"><strong> Correo electrónico </strong></label>
+  			<input type = "text" name = "res_correo" id = "correo">	
+  		</form>
+  		<br>
+		<form>
+  			<label for = "clave"><strong> Contraseña </strong></label>
+  			<input type = "password" name = "res_clave" id = "clave">
+		
+		</form>
+	</div>	
+	<br>
+	<div>
+		<form>
+	  	<p><strong> Tipo de cuenta </strong></p>
+		<label for = "premium"> Premium </label>
+	 	<input id = "premium" name = "tipo_cuenta" type = "checkbox" value = "premium">
+	 	<br>
+	 	<label for = "gratuita"> Gratuita </label>
+	  	<input id = "gratuita" name = "tipo_cuenta" type = "checkbox" value = "gratuita">
+		</form>
+	</div>
+	<br>
+	<div>
+		<form>
+			<input type = "submit" value = "Registrarse">
+		</form>
+	</div>	
+	<br><hr><br>
+	<div>
+		<h2> Dirección</h2>
+		<form>
+	  		<label for = "pais"><strong> País </strong></label>
+	  		<input type = "text" list = "paises" id = "pais" name = "pais">
+
+	  		<datalist id = "paises">
+	   		<option value = "México"> </option>
+	   		<option value = "Estados Unidos"> </option>
+	   		<option value = "Canadá"> </option>
+	   		<option value = "Colombia"> </option>
+	   		<option value = "Chile"> </option>
+	   		<option value = "Perú"> </option>
+	   		<option value = "Argentina"> </option>
+	   		<option value = "Bolivia"> </option>
+	   		<option value = "Guatemala"> </option>
+	   		<option value = "Uruguay"> </option>
+	    	
+	  		</datalist>
+		</form>
+		<br>
+		<form>
+  			<label for = "estado"><strong> Estado </strong></label>
+  			<input type = "text" name = "res_estado" id = "estado">
+		</form>
+		<br>
+		<form>
+  			<label for = "ciudad"><strong> Ciudad </strong></label>
+  			<input type = "text" name = "res_ciudad" id = "ciudad">
+		</form>
+		<br>
+		<form>
+  			<label for = "calle"><strong> Calle </strong></label>
+  			<input type = "text" name = "res_calle" id = "calle">
+		<form>
+  			<label for = "fraccionamiento"><strong> Fraccionamiento </strong></label>
+  			<input type = "text" name = "res_Fraccionamiento" id = "fraccionamiento">
+		<form>
+  			<label for = "numeroext"><strong> Número exterior </strong></label>
+  			<input type = "number" name = "res_numeroext" id = "numeroext">
+		</form>
+		</form>
+		</form>
+		<br>
+		<form>
+  			<label for = "codigo"><strong> Código Postal </strong></label>
+  			<input type = "number" name = "res_codigo" id = "codigo">
+		</form>
+		<br>
+		<form>
+  			<label for = "ref"> <strong> Referencias <strong></label> 			
+  			<textarea id = "ref" name = "ref" rows = "3" cols = "30">
+  			</textarea>
+		</form>
+		</div>	
+</center>
+</body>
+</html>
