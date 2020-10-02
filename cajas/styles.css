@@ -1,0 +1,63 @@
+#titulo, a.menu{
+	background-color: #111555;
+	color: #FFFFFF;
+	padding: 18px;
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+}
+
+#menu{
+	background-color: #111555;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	margin: 0px;
+}
+
+a.menu:hover{
+	background-color: #181e7c;
+	color: #FFFFFF;
+	padding: 19px;
+	border: 1px solid #FFFFFF;
+}
+
+h3{
+	background-color: #111555;
+	color: #FFFFFF;
+	border: 1px solid;
+	padding: 5px;
+}
+
+a{
+	background-color: #ced2d6;
+	color: #12589e;
+}
+
+a:hover{
+	background-color: #ced2d6;
+	color: #1074de;
+}
+
+p, h3, #menu, ul, ol{
+	font-family: "Arial";
+}
+
+em.enfasisb{
+	background-color: #f6d8b3;
+	border: 2px solid #000000;
+}
+
+em.enfasism{
+	background-color: #f6d8b3;
+	border: 2px solid #f9a63f;
+}
+
+em.enfasisp{
+	background-color: #ccf3a0;
+	border: 2px solid #86c53e;
+}
+
+em.enfasisc{
+	background-color: #a1d0df;
+	border: 2px solid #3db4b0;
+}
+ 

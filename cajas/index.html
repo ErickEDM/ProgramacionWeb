@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href = "./styles.css" type ="text/css" rel ="stylesheet">
+	<title>Modelo de caja</title>
+</head>
+<body>
+
+	<h1 id="titulo">Modelo de caja</h1>
+	<section id="menu">	
+		<a class=menu href="#">Inicio</a>
+		<a class=menu href="#concepto">Concepto</a>
+		<a class=menu href="#tipos">Tipos</a>
+		<a class=menu href="#elementos">Elementos</a>
+		<a class=menu href="#propiedades">Propiedades</a>
+		<a class=menu href="#fuentes">Fuentes</a>	
+	</section>
+
+	<section id="concepto">
+		<h3>Concepto de modelo de caja</h3>
+		<p>Todos los elementos en CSS están contenidos en una caja, comprender este concepto, es clave para poder crear diseños con CSS o alinear elementos con otros elementos.</p>
+		<p>La representación del modelo de cajas tiene, básicamente, cuatro conceptos que es importante comprender:</p>
+		<ol>
+			<li>El borde (<em class="enfasisb">border</em>). En negro, es el límite que separa el interior del exterior del elemento.</li><br>
+			<li>El márgen (<em class="enfasism">margin</em>). En naranja, es la parte exterior del elemento, por fuera del borde.</li><br>
+			<li>El relleno (<em class="enfasisp">padding</em>). En verde, es la parte interior del elemento, entre el contenido y el borde.</li><br>
+			<li>El contenido (<em class="enfasisc">content</em>), es la parte interior del elemento, excluyendo el relleno.</li><br>
+		</ol>	
+		<img src = "contenidocaja.png"/>
+	</section>	
+
+	<section id="tipos">
+		<h3>Cajas en bloque y en línea</h3>
+		<p>Estos dos tipos de cajas se refieren al modo como se comporta la caja en términos de flujo de página y en relación con otras cajas de la página.</p>
+		<p>Las cajas en bloque:</p>
+		<ul>
+			<li>Fuerzan un salto de línea al llegar al final de la línea.</li>
+			<li>La caja se extenderá en la dirección de la línea para llenar todo el espacio disponible que haya en su contenedor.</li>
+			<li>Se respetan las propiedades width y height.</li>
+			<li>El relleno, el margen y el borde mantienen a los otros elementos alejados de la caja.</li>
+		</ul>	
+		<p>Las cajas en línea:</p>
+		<ul>
+			<li>No fuerzan un salto de línea al llegar al final de la línea.</li>
+			<li>Width y height no se aplican.</li>
+			<li>Se aplican relleno, margen y bordes verticales, pero no mantienen alejadas otras cajas en línea.</li>	
+		</ul>
+		<p>El elemento &lta>, que se utiliza para los enlaces, y los elementos &ltspan>, &ltem> y &ltstrong> son ejemplos de elementos que se muestran en línea por defecto.</p>
+	</section>	
+
+	<section id="elementos">
+		<h3>Zonas de un elemento</h3>
+		<img src = "zonas.png"/>
+		<ul>
+			<li>Top: Se refiere a la parte superior del elemento.</li>
+			<li>Left: Se refiere a la parte izquierda del elemento.</li>
+			<li>Right: Se refiere a la parte derecha del elemento.</li>
+			<li>Bottom: Se refiere a la parte inferior del elemento.</li>
+			<li>Center: En algunos casos se puede especificar el valor center para referirse a la posición central entre los extremos horizontales o verticales.</li>
+		</ul>	
+	</section>
+
+
+
+	<section id="propiedades">
+		<h3>Propiedades del modelo de cajas</h3>
+		<ul>
+			<li>border:</li>
+			<li>margin:</li>
+			<li>padding:</li>
+			<li>width:</li>
+			<li>height:</li>
+			<li>min-width:</li>
+			<li>max-width:</li>
+			<li>min-height:</li>
+			<li>max-height:</li>	
+		</ul>	
+	</section>
+
+
+
+
+
+	<section id="fuentes">
+		<h3>Fuentes</h3>
+		<ul>		
+			<li><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/El_modelo_de_caja">https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/El_modelo_de_caja</a></li>
+			<li><a href="https://lenguajecss.com/css/modelo-de-cajas/que-es/">https://lenguajecss.com/css/modelo-de-cajas/que-es/</a></li>
+		</ul>
+	</section>	
+</body>
+</html>
