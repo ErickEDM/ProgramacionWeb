@@ -1,0 +1,251 @@
+html{
+	background-color: #FFFFFF;
+}
+*{
+	margin: 0px;
+}
+
+p{
+	text-align: justify;
+}
+
+a{
+	text-decoration-line: none;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#menu{
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+#btn{
+	background-color: #9A0101;
+	padding: 15px;
+	border: 2px solid #FFFFFF;
+	font-family: "Arial";
+	font-weight: 700;
+
+}
+
+#btn:hover{
+	background-color: #FFFFFF;
+	color: #9A0101;
+	padding: 15px;
+	border: 2px solid #FFFFFF;
+}
+
+.titulo{
+	background-color: #9A0101;
+	padding: 30px;
+	color: #FFFFFF;
+	font-family: "Georgia";
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+#primero{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h2, #titlfuentes{
+	font-family: "Arial";
+	font-size: 30px;
+
+}
+
+
+#concepto{
+	font-family: "Arial";
+	font-size: 15px;
+}
+
+#funcionalidad{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#fun1{
+	margin-left: 5%;
+}
+#fun2{
+	margin-left: 5%;
+}
+
+#imagen4{
+	margin-left: 4%;
+}
+
+#titlVentajas{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#fuente{
+	margin-top: 20px;
+	color: #1362BC;
+}
+
+#fuente:hover{
+	color: #51A0FB;
+}
+#titlfuentes{
+	margin-top: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+#vent{
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+
+/*Dispositivos grandes */
+@media (min-width: 1220px){	
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, 
+	.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
+	.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+		float: left;
+	}
+	.col-lg-1{
+		width: 8.33%;
+	}
+	.col-lg-2{
+		width: 16.66%;
+	}
+	.col-lg-3{
+		width: 25%;
+	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+	.col-lg-5{
+		width: 41.66%;
+	}
+	.col-lg-6{
+		width: 50%;
+	}
+	.col-lg-7{
+		width: 58.33%;
+	}
+	.col-lg-8{
+		width: 66.66%;
+	}
+	.col-lg-9{
+		width: 75%;
+	}
+	.col-lg-10{
+		width: 83.33%;
+	}
+	.col-lg-11{
+		width: 91.66%;
+	}
+	.col-lg-12{
+		width: 100%;
+	}
+}
+
+/*Dispositivos medianos */
+@media (min-width: 600px) and (max-width: 1220px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4,
+	.col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+	.col-md-9, .col-md-10, .col-md-11, .col-md-12{
+		float: left;
+	}
+	.col-md-1{
+		width: 8.33%;
+	}
+	.col-md-2{
+		width: 16.66%;
+	}
+	.col-md-3{
+		width: 25%;
+	}
+	.col-md-4{
+		width: 33.33%;
+	}
+	.col-md-5{
+		width: 41.66%;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-7{
+		width: 58.33%;
+	}
+	.col-md-8{
+		width: 66.66%;
+	}
+	.col-md-9{
+		width: 75%;
+	}
+	.col-md-10{
+		width: 83.33%;
+	}
+	.col-md-11{
+		width: 91.66%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+	#btn{
+	font-size: 12px;
+	}
+}	
+
+/*Dispositivos pequeños */
+@media (min-width: 300px) and (max-width: 600px){
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4,
+	.col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, 
+	.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+		float: left;
+	}
+	.col-sm-1{
+		width: 8.33%;
+	}
+	.col-sm-2{
+		width: 16.66%;
+	}
+	.col-sm-3{
+		width: 25%;
+	}
+	.col-sm-4{
+		width: 33.33%;
+	}
+	.col-sm-5{
+		width: 41.66%;
+	}
+	.col-sm-6{
+		width: 50%;
+	}
+	.col-sm-7{
+		width: 58.33%;
+	}
+	.col-sm-8{
+		width: 66.66%;
+	}
+	.col-sm-9{
+		width: 75%;
+	}
+	.col-sm-10{
+		width: 83.33%;
+	}
+	.col-sm-11{
+		width: 91.66%;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
+	.titulo{
+		font-size: 30px;
+	}
+	#btn{
+	font-size: 10px;
+	}
+}	
