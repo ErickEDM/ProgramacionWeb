@@ -1,0 +1,54 @@
+*{
+	
+}
+
+.container-fluid{
+	background-color: #DDFEFD;
+}
+
+
+p, #titulo, button{
+	font-family: "comic sans ms";
+	font-weight: 800;
+	font-size: 20px;
+	text-align: justify;
+}
+
+#titulo{
+	text-align: center;
+	font-size: 60px;
+	color: #F6D5FF;
+	background-color: #42A2E7;
+	padding: 30px;
+}
+
+button{
+	background-color: #42A2E7;
+	color: #D8F9A9;
+	text-align: center;
+}
+
+button:hover{
+	background-color: #D8F9A9;
+	color: #42A2E7;
+}
+
+p{
+	background-color: #B0D3DC;
+}
+#dial1, #dial2, #dial3, #dial4, #dial5{
+	text-align: left;
+	background-color: #FFFFFF;
+	height: 0%;
+	top: 20px;
+	font-size: 15px;
+	border: 1px solid #000000;
+}
+
+#dial1, #boton2, #casa1,#dial2, #boton4, #casa2, #dial3, #dial5, #boton6, #casa3{
+	visibility: hidden;
+}
+
+#cuento{
+	margin-top: 15px;
+}
