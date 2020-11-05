@@ -1,0 +1,32 @@
+.jumbotron{
+	background-color: #1F2292;
+	padding: 30px;
+	border-top: 30px solid #0C0E43;
+	border-bottom: 30px solid #0C0E43;
+}
+
+p{
+	font-family: "Times New Roman";
+	text-align: justify;
+}
+
+#titulo, #subtitulo{
+	color: #FFFFFF;
+	font-family: "Georgia";
+	font-size: 15px;
+}
+
+#titulo{
+	font-size: 45px;
+	font-weight: 900;
+}
+
+#notTitulo{
+	text-align: center;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+hr{
+	background-color: #0C0E43;
+}
