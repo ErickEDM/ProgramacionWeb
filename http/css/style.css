@@ -1,0 +1,60 @@
+.jumbotron{
+	background-color: #437B56;
+	margin: 0px;
+	padding: 35px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+#titulo, #subtitulo{
+	color: #FFFFFF;
+	font-family: "Georgia";
+	font-weight: 700;
+}
+
+nav{
+	background-color: #437B56;
+	font-family: "Georgia";
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+li{
+	border-left: 1px solid #FFFFFF;
+}
+
+#content{
+	background-color: #CFF5DC;
+	border: 1px solid #437B56;
+	font-family: "Georgia";
+	font-size: 18px;
+	text-align: justify;
+	padding: 40px;
+}
+
+#Inicio{
+	margin-left: 30px;
+}
+
+h2{
+	font-weight: 800;
+}
+
+#lm1{
+	color: #2081B6;
+	cursor: pointer;
+}
+
+button{
+	background-color: #437B56;
+	color: #FFFFFF;
+	border-radius: 15px;
+}
+
+button:hover{
+	background-color: #CFF5DC;
+	color: #437B56;
+}
+
+#imgArq, #ul1, #ul2{
+	visibility: hidden;
+}

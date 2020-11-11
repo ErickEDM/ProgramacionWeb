@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Protocolo HTTP</title>
+	<link href = "css/bootstrap.min.css" type ="text/css" rel ="stylesheet">
+	<link href = "css/style.css" type ="text/css" rel ="stylesheet">
+</head>
+<body>
+	<header class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<h1 id=titulo>Protocolo HTTP</h1>
+			</div>	
+			<div class="row">
+				<p id="subtitulo">Definición</p>
+			</div>
+		</div>
+	</header>
+	<nav class="navbar navbar-dark navbar-expand-sm bg-custom sticky-top">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand mr-auto" href="index.html">HTTP</a>
+			<div class="collapse navbar-collapse" id="Navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active" id="Inicio"><a class="nav-link" href="index.html">Definición</a></li>
+					<li class="nav-item"><a class="nav-link" href="https.html">HTTPS</a></li>
+					<li class="nav-item"><a class="nav-link" href="arquitectura.html">Arquitectura</a></li>
+					<li class="nav-item"><a class="nav-link" href="versiones.html">Versiones</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container" id="content">
+		<div class="row">
+			<h2 class="col-12">Definición del protocolo HTTP</h2>
+			<p class="col-12">HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML.<br><br>
+
+			Es la base de cualquier intercambio de datos en la Web, y es un protocolo de estructura cliente-servidor, esto significa que una petición de datos al servidor, es iniciada por el elemento que recibirá los datos (cliente), normalmente un navegador Web. Así, una página web completa resulta de la unión de distintos sub-documentos recibidos, como, por ejemplo: un documento que especifique el estilo de maquetación de la página web (CSS), el texto, las imágenes, vídeos, scripts, etc...    </p>
+
+			<img class="col-12 col-md-4"  src="http.jpg">
+
+			<p class="col-12 col-sm-8">HTTP usa el Puerto 80, que es el puerto desde el que el servidor web acepta peticiones.<br><br>
+
+			La mayoría de los recursos son archivos (imágenes, etc.) pero puede incluir otro tipo de datos como scripts.<br><br>
+
+			Las sesiones HTTP se abren por un cliente HTTP (es decir, el navegador del usuario) a través de un agente de usuario y se envía un mensaje de petición de conexión al servidor HTTP (es decir, el servidor web). 
+			</p>
+			<p class="col-12">El mensaje de petición se conoce también como ‘petición del cliente’ y consiste en las siguientes líneas:</p>
+			<button class="col-4" id="btnL1">Mostrar lista</button>
+			<ul class="col-12" id="ul1">
+				<li>Línea de petición</li>
+				<li id="li1">Encabezados</li>
+				<li id="li2">Línea vacía</li>
+				<li id="li3">Un cuerpo del mensaje opcional</li>
+			</ul>
+			
+			<p class="col-12">Una vez que la respuesta ha sido entregada el servidor web cierra la conexión. <br><br>
+
+			Este tipo de conexión es conocido como Stateless. La conexión solo existe por el periodo que dure el intercambio de datos.<br>
+			En función de la disponibilidad o no del recurso, HTTP proporciona un código de estatus apropiado (también conocido como ‘respuesta del servidor’), determinado por el protocolo. Son los siguientes:</p>
+			<button class="col-4" id="btnL2">Mostrar lista</button>
+			<ul class="col-12" id="ul2">
+				<li class="">1xx: un simple mensaje informativo</li>
+				<li class="">2xx: éxito de algún tipo (ej: 200 OK – file found)</li>
+				<li class="">3xx: el cliente a otra URL (ej: 301 moved permanently)</li>
+				<li class="">4xx: un error en el lado del cliente (ej: 404 archivo no encontrado)</li>	
+				<li class="">5xx: un error en el lado del servidor (ej: 500 server error)</li>
+			</ul>
+
+			<p class="col-12">HTTP es un protocolo ampliable, que ha ido evolucionando con el tiempo. Es lo que se conoce como un protocolo de la capa de aplicación, y se transmite sobre el protocolo TCP, o el protocolo encriptado TLS, aunque teóricamente podría usarse cualquier otro protocolo fiable. Gracias a que es un protocolo capaz de ampliarse, se usa no solo para transmitir documentos de hipertexto (HTML), si no que además, se usa para transmitir imágenes o vídeos, o enviar datos o contenido a los servidores, como en el caso de los formularios de datos. HTTP puede incluso ser utilizado para transmitir partes de documentos, y actualizar páginas Web en el acto.</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script1.js"></script>
+</body>
+</html>

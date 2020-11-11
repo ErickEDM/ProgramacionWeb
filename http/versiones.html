@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Protocolo HTTP</title>
+	<link href = "css/bootstrap.min.css" type ="text/css" rel ="stylesheet">
+	<link href = "css/style.css" type ="text/css" rel ="stylesheet">
+</head>
+<body>
+	<header class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<h1 id=titulo>Protocolo HTTP</h1>
+			</div>	
+			<div class="row">
+				<p id="subtitulo">Versiones</p>
+			</div>
+		</div>
+	</header>
+	<nav class="navbar navbar-dark navbar-expand-sm bg-custom sticky-top">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand mr-auto" href="index.html">HTTP</a>
+			<div class="collapse navbar-collapse" id="Navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item" id="Inicio"><a class="nav-link" href="index.html">Definición</a></li>
+					<li class="nav-item"><a class="nav-link" href="https.html">HTTPS</a></li>
+					<li class="nav-item"><a class="nav-link" href="arquitectura.html">Arquitectura</a></li>
+					<li class="nav-item active"><a class="nav-link" href="versiones.html">Versiones</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container" id="content">
+		<div class="row">
+			<h2 class="col-12">Versiones de HTTP</h2>
+			<p class="col-12">HTTP ha pasado por múltiples versiones del protocolo, muchas de las cuales son compatibles con las anteriores. El RFC 2145 describe el uso de los números de versión de HTTP. El cliente le dice al servidor al principio de la petición la versión que usa, y el servidor usa la misma o una anterior en su respuesta. <br><br>
+
+			<strong>0.9 (lanzada en 1991)</strong> <br>
+			Obsoleta. Soporta solo un comando, GET, y además no especifica el número de versión HTTP. No soporta cabeceras. Como esta versión no soporta POST, el cliente no puede enviarle mucha información al servidor.<br><br>
+			<strong>HTTP/1.0 (mayo de 1996)</strong><br>
+			Esta es la primera revisión del protocolo que especifica su versión en las comunicaciones, y todavía se usa ampliamente, sobre todo en servidores proxy. Permite los métodos de petición GET, HEAD y POST.<br><br>
+			<strong>HTTP/1.1 (junio de 1999)</strong><br>
+			Versión más usada actualmente; Las conexiones persistentes están activadas por defecto y funcionan bien con los proxies. También permite al cliente enviar múltiples peticiones a la vez por la misma conexión (pipelining) lo que hace posible eliminar el tiempo de Round-Trip delay por cada petición.<br><br>
+			<strong>HTTP/1.2 (febrero de 2000)</strong><br>
+			Los primeros borradores de 1995 del documento PEP — an Extension Mechanism for HTTP (el cual propone el Protocolo de Extensión de Protocolo, abreviado PEP) los hizo el World Wide Web Consortium y se envió al Internet Engineering Task Force. El PEP inicialmente estaba destinado a convertirse en un rango distintivo de HTTP/1.2. En borradores posteriores, sin embargo, se eliminó la referencia a HTTP/1.2. El RFC 2774 (experimental), HTTP Extension Framework, incluye en gran medida a PEP. Se publicó en febrero de 2000.<br><br>
+
+			<strong>HTTP/2 (mayo de 2015)</strong><br>
+			
+			En el año 2012 aparecen los primeros borradores de la nueva versión de HTTP (HTTP/2). Esta nueva versión no modifica la semántica de aplicación de http (todos los conceptos básicos continúan sin cambios). Sus mejoras se enfocan en como se empaquetan los datos y en el transporte. Por ejemplo, añade el uso de una única conexión, la compresión de cabeceras o el servicio 'server push'. Los exploradores más importantes solo soportan HTTP 2.0 sobre TLS usando la extensión ALPN que requiere TLSv1.2 o superior.<br><br>
+			
+			<strong>HTTP/3 (Octure de 2018)</strong><br>
+
+			
+			HTTP/3 es el sucesor propuesto de HTTP/2, que ya está en uso en la web, utilizando UDP en lugar de TCP para el protocolo de transporte subyacente. Al igual que el HTTP/2, no es obsoleto en las versiones principales anteriores del protocolo. El soporte para HTTP/3 fue agregado a Cloudflare y Google Chrome en septiembre de 2019, y puede ser habilitado en las versiones estables de Chrome y Firefox.</p>
+
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
