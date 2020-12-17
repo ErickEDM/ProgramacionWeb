@@ -56,7 +56,7 @@
 }
 #slides .slide_1 {
    background: #00171F;
-   background-image: url("https://github.com/ErickEDM/ProgramacionWeb/tree/master/Veterinaria/images/art5.jpg"); 
+   background-image: url("Veterinaria/images/art5.jpg"); 
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -64,7 +64,7 @@
 }
 #slides .slide_2 {
    background: #003459;
-   background-image: url("/Veterinaria/slide1.jpg"); 
+   background-image: url("Veterinaria/slide1.jpg"); 
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -73,7 +73,7 @@
 }
 #slides .slide_3 {
    background: #007EA7;
-   background-image: url("https://github.com/ErickEDM/ProgramacionWeb/tree/master/Veterinaria/images/art7.jpg"); 
+   background-image: url("Veterinaria/images/art7.jpg"); 
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -81,7 +81,7 @@
 }
 #slides .slide_4 {
    background: #007EA7;
-   background-image: url("https://github.com/ErickEDM/ProgramacionWeb/tree/master/Veterinaria/images/art2.jpg"); 
+   background-image: url("Veterinaria/images/art2.jpg"); 
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
